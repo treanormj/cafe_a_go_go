@@ -21,6 +21,13 @@ body {
   color: white;
 }
 
+.map_words {
+  padding-left: 2%;
+}
+.map {
+  max-width: 20%;
+}
+
 a:link, a:visited {
   color: white;
   font-size: 36px;
