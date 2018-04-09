@@ -1,7 +1,9 @@
 body {
-  background-color: tan;
-  font-size: 24px;
+  background-color: white;
+  font-size: 100%;
   color: black;
+  font-family: 'Source Sans Pro', sans-serif;
+
 }
 
 .logo {
@@ -21,11 +23,30 @@ body {
   color: white;
 }
 
+.slogan {
+  font-family: 'Pacifico', cursive;
+}
+.slogan2 {
+  font-weight: bold;
+  font-size: 10px;
+}
+
 .map_words {
   padding-left: 2%;
 }
 .map {
   max-width: 20%;
+}
+.spacing {
+  line-height: 150px;
+}
+.yelp {
+  padding-left: 25%;
+  padding-right: 25%;
+}
+.yelp_review {
+  text-align: right;
+  font-style: italic;
 }
 
 a:link, a:visited {
@@ -42,6 +63,17 @@ a:hover, a:active {
 
 .logo_words {
   text-align: center;
+}
+
+.hours {
+  text-align: center;
+}
+
+.coffee_6 {
+  float: right;
+  width: 25%;
+  padding: 2%;
+  border-radius: 50px;
 }
 /* .header {
 position: absolute;
