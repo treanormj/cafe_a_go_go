@@ -74,8 +74,8 @@ body {
 .yelp {
   padding-left: 20%;
   padding-right: 20%;
-  font-size: .9em;
-  line-height: 2em;
+  font-size: .9;
+  line-height: 2;
 
 }
 .yelp_review {
@@ -114,7 +114,17 @@ a:hover, a:active {
 
 
 .employment_no_jobs {
-  font-size: 100px;
-  color: pink;
+  color: #D30118;
   text-align: center;
+  font-size: 1.5em;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.employment_no_jobs_small {
+  padding-left: 15%;
+  padding-right: 15%;
+  text-align: center;
+  font-style: normal;
+  line-height: 1.5;
 }
