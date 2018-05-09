@@ -21,7 +21,7 @@ https://fonts.google.com/specimen/Indie+Flower
  */
 body {
   background-color: white;
-  /* font-size: 200%; */
+  font-size: 24pt;
   /* color: black; */
   font-family: 'Source Sans Pro', sans-serif;
 
@@ -40,60 +40,65 @@ body {
 
 .links {
   position: absolute;
-  top: 50px;
-  left: 16px;
-  color: white;
+  top: 2%;
+  left: 40%;
+  color: #FEFE02;
+  text-align: right;
+
+  /* font size is set in a:link, a:visited */
 }
 
+a:link, a:visited {
+  color: #FEFE02;
+  font-size: 3vw;
+  padding: 50px 20px;
+  text-decoration: underline;
+  font-weight: bold;
+  text-align: right;
+}
+
+a:hover, a:active {
+  font-size: 4vw;
+  color: #CC0517;
+}
 .slogan {
   font-family: 'Pacifico', cursive;
-  font-size: 100%;
+  font-size: 75%;
 }
 .slogan2 {
   font-weight: bold;
-  font-size: 125%;
+  font-size: 75%;
   color: #CC0517;
-  padding-top: 8%;
-  padding-bottom: 5%;
+  /* padding-top: 8%; */
+  /* padding-bottom: 5%; */
 }
 
 .map_words {
   padding-left: 2%;
   font-size: 100%;
   line-height: .9em;
-  margin-top: -3%;
-
+  margin-top: -8%;
 }
+
 .map {
   max-width: 30%;
 }
-/* .spacing {
-  line-height: 150px;
-  font-size: 100px;
-} */
+
 .yelp {
   padding-left: 20%;
   padding-right: 20%;
-  font-size: .9;
-  line-height: 2;
+  font-size: .9em;
+  line-height: 1.5em;
 
 }
 .yelp_review {
   text-align: right;
   font-style: italic;
+  padding-top: -15em;
+  /* line-height: .1em; */
 }
 
-a:link, a:visited {
-  color: white;
-  font-size: 36px;
-  padding: 14px 25px;
-  text-align: left;
-  text-decoration: none;
-}
 
-a:hover, a:active {
-  font-size: 225%;
-}
 
 .logo_words {
   text-align: center;
@@ -127,4 +132,8 @@ a:hover, a:active {
   text-align: center;
   font-style: normal;
   line-height: 1.5;
+}
+
+.menu_image {
+  width: 20%;
 }
